@@ -1,0 +1,43 @@
+{
+  "annotations": {
+    "changelogDate": "20241015162722"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "payementType",
+      "fieldType": "PayementType",
+      "fieldValues": "CB,CMI,Paypal,STRIPE"
+    },
+    {
+      "fieldName": "cardNum",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "expiration",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "cryptogram",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Payement",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

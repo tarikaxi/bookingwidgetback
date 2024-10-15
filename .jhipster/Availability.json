@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241015162720"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "Language",
+      "fieldValues": "FRENCH,ENGLISH,SPANISH,ITALIEN"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adultNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "childNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "flexibilityOnDays",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Availability",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

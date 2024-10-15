@@ -1,0 +1,58 @@
+{
+  "annotations": {
+    "changelogDate": "20241015162721"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "clientFirstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientLastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "rooms",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ref",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adultNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "childNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isconfirmed",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "Booking",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

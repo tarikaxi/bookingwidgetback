@@ -7,7 +7,8 @@ http://localhost:8080/api/authenticate
     "username": "admin",
     "password": "admin",
     "rememberMe": true
-}
+}.
+
  run with -Dspring.profiles.active=dev VM arg
 
 # bookingwidgetback

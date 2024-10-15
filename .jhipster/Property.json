@@ -1,0 +1,46 @@
+{
+  "annotations": {
+    "changelogDate": "20241015162723"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "streetAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stateProvince",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "PropertyType",
+      "fieldValues": "GuestHouse,Hotel,Riad,Hostal,Auberge,Gite,Chateau"
+    }
+  ],
+  "name": "Property",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

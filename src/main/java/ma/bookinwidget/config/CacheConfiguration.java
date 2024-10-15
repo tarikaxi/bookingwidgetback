@@ -50,6 +50,10 @@ public class CacheConfiguration {
             createCache(cm, ma.bookinwidget.domain.User.class.getName());
             createCache(cm, ma.bookinwidget.domain.Authority.class.getName());
             createCache(cm, ma.bookinwidget.domain.User.class.getName() + ".authorities");
+            createCache(cm, ma.bookinwidget.domain.Availability.class.getName());
+            createCache(cm, ma.bookinwidget.domain.Booking.class.getName());
+            createCache(cm, ma.bookinwidget.domain.Payement.class.getName());
+            createCache(cm, ma.bookinwidget.domain.Property.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
