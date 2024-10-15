@@ -1,0 +1,66 @@
+entity Property {
+	streetAddress String
+	postalCode String
+	city String
+	stateProvince String
+    name String
+    email String
+    phone String
+    type PropertyType
+}
+enum PropertyType {
+    GuestHouse, Hotel, Riad, Hostal, Auberge, Gite, Chateau
+}
+
+entity Availability {
+	startDate Instant
+	endDate Instant
+	language Language
+   	country String
+    adultNumber Integer
+    childNumber Integer
+    flexibilityOnDays Integer
+}
+
+entity Booking {
+    clientFirstName String
+    clientLastName String
+	startDate Instant
+	endDate Instant
+	rooms String
+    ref String
+    clientEmail String
+    clientPhone String
+    adultNumber Integer
+    childNumber Integer
+    isconfirmed Boolean 
+}
+
+entity Payement {
+	firstName String
+    lastName String
+    email String
+    payementType PayementType
+    cardNum String
+    expiration Instant
+    cryptogram Integer
+
+}
+enum Language {
+    FRENCH, ENGLISH, SPANISH, ITALIEN
+}
+enum PayementType {
+    CB, CMI, Paypal, STRIPE
+}
+
+// Set pagination options
+paginate Booking, Payement with pagination
+
+// Use Data Transfer Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

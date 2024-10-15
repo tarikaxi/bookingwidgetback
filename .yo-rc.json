@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "bookingwidgetback",
+    "buildTool": "maven",
+    "cacheProvider": "ehcache",
+    "creationTimestamp": 1729009370587,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": false,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.7.1",
+    "jwtSecretKey": "YzU4OWYxN2NhNGZiZWI2MDE1ZGU2MmMyM2IzY2QxYjA1YjJhNGU0NDU2YTNlZmQyMGUzNzQ2YzBmMzQ4MTdiZDEzYzMwNGNkYmZlZjZhMTU3MGM5Zjg4M2Y5Mjg4YjA5ZTBmMTRmYWNmM2U5ZWVmMDMxYjg5OTVmMTVlMmU0Mjc=",
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ma.bookinwidget",
+    "prodDatabaseType": "mysql",
+    "reactive": false,
+    "searchEngine": false,
+    "serverPort": null,
+    "serverSideOptions": [],
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "websocket": false
+  }
+}
