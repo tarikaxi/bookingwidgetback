@@ -1,3 +1,15 @@
+# Authentification 
+
+generate token: 
+
+http://localhost:8080/api/authenticate
+ {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+}
+ run with -Dspring.profiles.active=dev VM arg
+
 # bookingwidgetback
 
 This application was generated using JHipster 8.7.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.7.1](https://www.jhipster.tech/documentation-archive/v8.7.1).
